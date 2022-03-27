@@ -9,7 +9,7 @@ Update the connection string at line# 20 in the following 2 files for MoviesApp 
 .\MoviesApp\MoviesApp\appsettings.json
 .\MoviesApp\MoviesAPI\appsettings.json
 
-Connection string should have the mentioned the Server=your SQL database server name. For example, if your SQL database server name is ABC then the connection string will look like this;
+Currently, the solution is set up to use a local MS SQL instance with windows authentication. If anything needs to be changed, you will need to edit the "DefaultConnectionString" in the app.settings.json. Connection string should have the mentioned the Server=your SQL database server name. For example, if your SQL database server name is ABC then the connection string will look like this;
 
 "DefaultConnection": "Server=ABC;Database=Movies;Trusted_Connection=True;MultipleActiveResultSets=true"
 
