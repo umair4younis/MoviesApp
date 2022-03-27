@@ -3,15 +3,16 @@
 Written in Visual Studio 2022, using ASP.NET Core 6.0 with Angular with MS SQL Server
 
 **Pre-requisite Steps:**
-Execute the whole SQL script to generate SQL database of the name "Movies" and create the schema and insert test data as well. .\MoviesApp\MoviesApp.Database\RunAll.sql
+- Execute the whole SQL script (.\MoviesApp\MoviesApp.Database\RunAll.sql) to generate SQL database of the name "Movies" and create the schema and insert test data as well.
+
 Update the connection string at line# 20 in the following 2 files for MoviesApp and MoviesAPI projects;
 
-.\MoviesApp\MoviesApp\appsettings.json
-.\MoviesApp\MoviesAPI\appsettings.json
+- .\MoviesApp\MoviesApp\appsettings.json
+- .\MoviesApp\MoviesAPI\appsettings.json
 
 Currently, the solution is set up to use a local MS SQL instance with windows authentication. If anything needs to be changed, you will need to edit the "DefaultConnectionString" in the app.settings.json. Connection string should have the mentioned the Server=your SQL database server name. For example, if your SQL database server name is ABC then the connection string will look like this;
 
-"DefaultConnection": "Server=ABC;Database=Movies;Trusted_Connection=True;MultipleActiveResultSets=true"
+- "DefaultConnection": "Server=ABC;Database=Movies;Trusted_Connection=True;MultipleActiveResultSets=true"
 
 
 **Set up:**
