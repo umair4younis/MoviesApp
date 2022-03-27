@@ -26,9 +26,9 @@ I've used swagger (https://swagger.io) to provide a front end for testing the AP
  - End point = /api/SearchMovies
  - Searches movies by given criteria.
  - Input Parameters
-	 - Title (string) = movie title (can be partial)
-	 - YearOfRelease (short) = year of movie release
-	 - Genres (Genres enum) = list of Genres (currently Action: 1, Comedy: 2, Horror: 3, ScienceFiction: 4)
+	 - Title (string) - movie title (can be partial)
+	 - YearOfRelease (short) - year of movie release
+	 - Genres (Genres enum) - list of Genres (currently Action: 1, Comedy: 2, Horror: 3, ScienceFiction: 4)
 	 - At least one parameter must be set
  - Returns
 	 - Movie list as Json
@@ -67,9 +67,9 @@ I've used swagger (https://swagger.io) to provide a front end for testing the AP
  - Saves a movie
  - Input Parameters
 	 - Movie Json object
-		 - title (string) = movie title
-		 - yearOfRelease (short) = year of movie release
-		 - genre (int) = select one enum value based on the list of Genres (currently Action: 1, Comedy: 2, Horror: 3, ScienceFiction: 4)
+		 - title (string) - movie title
+		 - yearOfRelease (short) - year of movie release
+		 - genre (int) - select one enum value based on the list of Genres (currently Action: 1, Comedy: 2, Horror: 3, ScienceFiction: 4)
 		 - runningTime (byte) - running time of movie (in minutes)
  - Returns
 	 - 200 if movie saved successfully
