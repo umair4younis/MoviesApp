@@ -1,0 +1,22 @@
+/* Structure */
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+input.number-field-right-align::-webkit-outer-spin-button,
+input.number-field-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.number-field-right-align {
+  -moz-appearance: textfield;
+}
