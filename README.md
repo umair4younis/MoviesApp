@@ -1,6 +1,6 @@
 # MoviesApp
 
-Written in Visual Studio 2022, using ASP.NET Core 6.0 with Angular
+Written in Visual Studio 2022, using ASP.NET Core 6.0 with Angular with MS SQL Server
 
 **Pre-requisite Steps:**
 Execute the whole SQL script to generate SQL database of the name "Movies" and create the schema and insert test data as well. .\MoviesApp\MoviesApp.Database\RunAll.sql
